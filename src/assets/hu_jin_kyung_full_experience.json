@@ -1,0 +1,882 @@
+{
+  "name": "Hu Jin Kyung",
+  "contact": {
+    "phone": "010-3313-8375",
+    "email": "nubddaki@naver.com",
+    "blog": "https://blog.naver.com/nubddaki",
+    "instagram": "JinKyungHu"
+  },
+  "education": [
+    {
+      "year": 1997,
+      "degree": "Bachelor's Degree",
+      "department": "Department of Industrial Art",
+      "institution": "Sungshin Women's University",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/65/Sungshin_Women%27s_University_logo.svg"
+    }
+  ],
+  "solo_exhibitions": [
+    {
+      "date": "2024-02-28",
+      "title": "15th Solo Exhibition: Beauty with Hope",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2022-08-29",
+      "title": "14th Solo Exhibition: Bokdamari and Solely Contained",
+      "venue": "Gallery Bitteul, Aramnuri Library",
+      "location": "Goyang"
+    },
+    {
+      "date": "2022-08-24",
+      "title": "13th Solo Booth Exhibition: Bokdamari and Solely Contained at Seoul Modern Art Show 2022",
+      "venue": "S-Factory",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-06-07",
+      "title": "12th Solo Exhibition: Bokdamari and Solely Contained",
+      "venue": "M Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-05-11",
+      "title": "11th Solo Exhibition: Cats on Outing",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2021-03-15",
+      "title": "10th Solo Exhibition: Bokdamari and Solely Contained",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-08-17",
+      "title": "9th Solo Exhibition: Bokdamari",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-04-20",
+      "title": "8th Solo Exhibition: Bokdamari",
+      "venue": "The-K Savings Bank Customer Lounge",
+      "location": "Seoul"
+    },
+    {
+      "date": "2019-10-08",
+      "title": "7th Solo Exhibition: Bokdamari at Art Seoul 2019",
+      "venue": "Hangaram Art Museum, Seoul Arts Center (Booth 4)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-09-12",
+      "title": "6th Solo Exhibition: Fulfilled Abundance",
+      "venue": "Unhyeon Palace Special Exhibition Hall",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-06-20",
+      "title": "5th Solo Exhibition: Happy Because We're Together",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-03-23",
+      "title": "4th Solo Exhibition: Family Is Love",
+      "venue": "Gallery Bitteul, Aramnuri Library",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-10-30",
+      "title": "3rd Solo Exhibition: If You Feel the Heart, You See Me",
+      "venue": "Gallery Mill",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-01-03",
+      "title": "2nd Solo Exhibition: Being Alive Is Beautiful",
+      "venue": "Gyohwa Art Center",
+      "location": "Paju"
+    },
+    {
+      "date": "2016-06-22",
+      "title": "1st Solo Exhibition: Cat's First Outing",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    }
+  ],
+  "invited_solo_exhibitions": [
+    {
+      "date": "2025-02-01",
+      "title": "14th Invited Exhibition: Bokdamari and Solely Contained",
+      "venue": "Hyundai Department Store Mia Branch H Gallery x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-03-10",
+      "title": "13th Invited Exhibition: A Happy and Youthful Life with Hope",
+      "venue": "Marin Art Space",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-01-15",
+      "title": "12th Invited Exhibition: Cat–Human Empathy (Time of Communion with Cats)",
+      "venue": "The Nature Gallery",
+      "location": "Pyeongtaek"
+    },
+    {
+      "date": "2022-09-02",
+      "title": "11th Invited Exhibition: Bokdamari – Wishing under Moonlight",
+      "venue": "OLH EUM x Public Gallery, Cheongdam",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-02-04",
+      "title": "10th Invited Exhibition: Happy and Youthful Life",
+      "venue": "3C5Flower–Yeouido x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-08-24",
+      "title": "9th Invited Exhibition: A Life Filled with Hope Is Beautiful",
+      "venue": "3C5Flower–Centropolis, Jongno x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-08-06",
+      "title": "8th Invited Exhibition: Bokdamari – Where Does Blessing Come From?",
+      "venue": "WellPerion x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-06-11",
+      "title": "7th Invited Exhibition: Bokdamari and Solely Contained",
+      "venue": "Gallery Cafe Space (Goyang Cultural Bridge Support)",
+      "location": "Goyang"
+    },
+    {
+      "date": "2021-03-04",
+      "title": "6th Invited Exhibition: Bokdamari – Wishing for Health and Blessings",
+      "venue": "Gangnam GS Eye Clinic x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2020-10-27",
+      "title": "5th Invited Exhibition: Bokdamari",
+      "venue": "Nekisilvi–Deoksugung Palace Depalace x Public Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2020-02-20",
+      "title": "4th Invited Exhibition: Cat's Dream",
+      "venue": "Gallery Cafe Space",
+      "location": "Goyang"
+    },
+    {
+      "date": "2018-08-16",
+      "title": "3rd Invited Exhibition: Awakening as an Object",
+      "venue": "Gallery Cafe Aramtte",
+      "location": "Goyang"
+    },
+    {
+      "date": "2018-04-01",
+      "title": "2nd Invited Exhibition: Cats and Flowers",
+      "venue": "Gallery Cafe Letura",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-06-22",
+      "title": "1st Invited Exhibition: When Flowers Met Butterflies",
+      "venue": "Gallery Cafe Wolfs",
+      "location": "Goyang"
+    }
+  ],
+  "art_fairs": [
+    {
+      "date": "2025-06-05",
+      "title": "Ulsan International Art Fair UiAF 2025",
+      "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D24)",
+      "location": "Ulsan"
+    },
+    {
+      "date": "2025-05-22",
+      "title": "PLAS 2025 (Contemporary Art Seoul)",
+      "venue": "COEX B Hall (Gallery Soma Booth G47)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2025-04-03",
+      "title": "14th Busan International Art Fair (BAMA 2025)",
+      "venue": "BEXCO (Gallery Soma Booth C01)",
+      "location": "Busan"
+    },
+    {
+      "date": "2025-03-13",
+      "title": "14th Bank Art Fair",
+      "venue": "Fairmont Ambassador Hotel (Gallery Soma Room 1206)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2025-02-19",
+      "title": "LA Art Show 2025 (30th Anniversary)",
+      "venue": "LA Convention Center South Hall",
+      "location": "LA"
+    },
+    {
+      "date": "2024-12-24",
+      "title": "Seoul Art Show 2024",
+      "venue": "COEX A Hall (Gallery Soma Booth 109)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2024-12-13",
+      "title": "13th Bank Art Fair Singapore",
+      "venue": "Pan Pacific Hotel Singapore (Gallery Soma Room 715)",
+      "location": "Singapore"
+    },
+    {
+      "date": "2024-11-21",
+      "title": "4th Incheon Art Show 2024",
+      "venue": "Songdo Convensia (Gallery Soma Booth C-22)",
+      "location": "Incheon"
+    },
+    {
+      "date": "2024-11-07",
+      "title": "Diaf PLUS 2024",
+      "venue": "EXCO Hall 4 & 5 (Gallery Soma Booth C-24)",
+      "location": "Daegu"
+    },
+    {
+      "date": "2024-10-10",
+      "title": "Art:Gwangju:24",
+      "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-9)",
+      "location": "Gwangju"
+    },
+    {
+      "date": "2024-08-14",
+      "title": "DKAF Daejeon K-Art Fair",
+      "venue": "DCC Daejeon Convention Center (Gallery Soma Booth C-5)",
+      "location": "Daejeon"
+    },
+    {
+      "date": "2024-08-08",
+      "title": "12th Bank Art Fair SETEC",
+      "venue": "SETEC Hall 3 (Gallery Soma Booth 3-8)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2024-06-13",
+      "title": "Ulsan International Art Fair UiAF 2024",
+      "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D08)",
+      "location": "Ulsan"
+    },
+    {
+      "date": "2024-05-23",
+      "title": "PLAS 2024 (Contemporary Art Seoul)",
+      "venue": "COEX B Hall (Gallery Soma Booth G51)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2024-04-11",
+      "title": "13th Busan International Art Fair BAMA 2024",
+      "venue": "BEXCO (Gallery Soma Booth B13)",
+      "location": "Busan"
+    },
+    {
+      "date": "2024-03-07",
+      "title": "11th Bank Art Fair Lotte Hotel",
+      "venue": "Lotte Hotel (Gallery Soma Room 2618)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-12-22",
+      "title": "Seoul Art Show 2023",
+      "venue": "COEX A Hall (Gallery Soma Booth 157)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-11-23",
+      "title": "3rd Incheon Asia Art Show 2023",
+      "venue": "Songdo Convensia (Gallery Soma Booth B15)",
+      "location": "Incheon"
+    },
+    {
+      "date": "2023-11-09",
+      "title": "Affordable Art Fair Singapore",
+      "venue": "F1 Pit Building (Gallery Soma 3D-14)",
+      "location": "Singapore"
+    },
+    {
+      "date": "2023-09-21",
+      "title": "Art:Gwangju:23",
+      "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth D-1)",
+      "location": "Gwangju"
+    },
+    {
+      "date": "2023-08-10",
+      "title": "10th Bank Art Fair SETEC",
+      "venue": "SETEC Hall 3 (Gallery Soma Booth 3-45)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-05-25",
+      "title": "PLAS 2023 (Contemporary Art Seoul)",
+      "venue": "COEX B Hall (Gallery Soma Booth G54)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2023-03-02",
+      "title": "12th Busan International Art Fair BAMA 2023",
+      "venue": "BEXCO (Gallery Soma Booth B02)",
+      "location": "Busan"
+    },
+    {
+      "date": "2023-02-09",
+      "title": "Seoul International Art Expo 2023",
+      "venue": "COEX C Hall (Gallery Soma Booth 611)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-12-21",
+      "title": "Seoul Art Show 2022",
+      "venue": "COEX A Hall (Gallery Soma Booth 116)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-11-16",
+      "title": "2nd Incheon Asia Art Show 2022",
+      "venue": "Songdo Convensia (Gallery Soma Booth X42, X43)",
+      "location": "Incheon"
+    },
+    {
+      "date": "2022-10-06",
+      "title": "Art:Gwangju:22",
+      "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-6)",
+      "location": "Gwangju"
+    },
+    {
+      "date": "2022-09-28",
+      "title": "Gyeongju Art Fair 2022",
+      "venue": "Gyeongju Exhibition & Convention Center (Gallery Soma Booth 33)",
+      "location": "Gyeongju"
+    },
+    {
+      "date": "2022-05-26",
+      "title": "PLAS 2022 (Contemporary Art Seoul)",
+      "venue": "COEX B Hall (Gallery Soma Booth G50)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2022-05-04",
+      "title": "Korea Art Show Suwon 2022",
+      "venue": "Suwon Convention Center (Gallery Soma Booth E48)",
+      "location": "Suwon"
+    },
+    {
+      "date": "2022-04-07",
+      "title": "11th Busan International Art Fair BAMA 2022",
+      "venue": "BEXCO (Gallery Soma Booth C18)",
+      "location": "Busan"
+    },
+    {
+      "date": "2021-12-22",
+      "title": "Seoul Art Show 2021",
+      "venue": "COEX A Hall (Gallery Soma Booth 133)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-11-18",
+      "title": "1st Incheon Asia Art Show 2021",
+      "venue": "Songdo Convensia (Gallery Soma Booth D7)",
+      "location": "Incheon"
+    },
+    {
+      "date": "2021-10-28",
+      "title": "Art:Gwangju:21",
+      "venue": "Kim Dae-jung Convention Center T4 (Art Channel One Booth A16)",
+      "location": "Gwangju"
+    },
+    {
+      "date": "2021-04-08",
+      "title": "10th Busan International Art Fair BAMA 2021",
+      "venue": "BEXCO (Gallery Soma Booth F10)",
+      "location": "Busan"
+    },
+    {
+      "date": "2020-05-30",
+      "title": "Seoul Modern Art Show 2020",
+      "venue": "Korea Electric Power Art Center + Online Exhibition",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-01-23",
+      "title": "Seoul International Art Expo",
+      "venue": "COEX B2 Hall (Lydia Gallery Booth)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2017-08-18",
+      "title": "Pet Seoul 2017",
+      "venue": "COEX B Hall (Lydia Gallery Booth A-01)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2017-07-20",
+      "title": "HANDMADE KOREA 2017",
+      "venue": "COEX C Hall (Lydia Gallery Booth H-Q09)",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-11-25",
+      "title": "Shenzhen International Art Fair",
+      "venue": "Shenzhen Convention Center (Wonsam Gallery Booth D1)",
+      "location": "Shenzhen, China"
+    }
+  ],
+  "group_exhibitions": [
+    {
+      "date": "2025-01-04",
+      "title": "16th Gallery Soma Planned Exhibition – Grand Reopening ‘Restart!’",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2024-07-17",
+      "title": "15th Gallery Soma Planned Exhibition – Good Luck! 4",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2024-01-31",
+      "title": "13th Gallery Soma Planned Lunar New Year Auction Exhibition – ‘Our 설날’",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2023-08-16",
+      "title": "10th Gallery Soma Planned Exhibition – Good Luck! 3",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2022-12-07",
+      "title": "7th Gallery Soma Planned Exhibition – Enjoy Art",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2022-07-27",
+      "title": "4th Gallery Soma Planned Exhibition – Good Luck! 2",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2022-02-02",
+      "title": "5th MULBAN IN SOUL Regular Exhibition",
+      "venue": "Gyeongin Museum of Art – Atelier",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-11-01",
+      "title": "23rd Goyang Women Artists Exhibition – Communication & Healing",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2021-10-01",
+      "title": "SICAF 2021 (Seoul International Cartoon & Animation Festival)",
+      "venue": "Oil Tank Culture Park T4",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-08-30",
+      "title": "4th MULBAN IN SOUL Regular Exhibition",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2021-08-16",
+      "title": "3rd Gallery Soma Planned Exhibition – Good Luck!",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2021-02-24",
+      "title": "19th Korea Painting Awards Invitational Exhibition",
+      "venue": "Insa Art Plaza 2nd Floor",
+      "location": "Seoul"
+    },
+    {
+      "date": "2021-02-22",
+      "title": "2nd Gallery Soma Planned Exhibition – A World with Animals",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-11-09",
+      "title": "Art Shop Invitational Exhibition – Art in Your Hands",
+      "venue": "Seoul Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2020-09-28",
+      "title": "1st Gallery Soma Planned Exhibition – Stories of Autumn",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-09-14",
+      "title": "3rd MULBAN IN SOUL Regular Exhibition",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-08-12",
+      "title": "Special Exhibition – Goyang Women Artists",
+      "venue": "Gallery 31",
+      "location": "Seoul"
+    },
+    {
+      "date": "2020-07-20",
+      "title": "Mom & Son Exhibition – Works by a Painter Mother and Twin Son",
+      "venue": "Gallery Soma",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-06-20",
+      "title": "30th Anniversary Exhibition – Healing Hearts with Citizens",
+      "venue": "Haengju Art Hall",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-05-25",
+      "title": "22nd Goyang Women Artists Exhibition – Love & Sharing",
+      "venue": "Goyang Aramnuri Galley Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-03-02",
+      "title": "MULBAN IN SOUL – 2020 Spring Special Members Exhibition",
+      "venue": "Ilsandong-gu Office Gallery Gaon 1 & 2",
+      "location": "Goyang"
+    },
+    {
+      "date": "2020-01-20",
+      "title": "18th Korea Painting Awards Invitational Artist",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2019-12-10",
+      "title": "2019/2020 Korea Art Festival – Carrying Hope for Artists",
+      "venue": "Onse Art Center",
+      "location": "Chungbuk Jeungpyeong"
+    },
+    {
+      "date": "2019-11-14",
+      "title": "29th Goyang Fine Arts Association Members Exhibition – Harmony & Healing",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2019-08-19",
+      "title": "2nd MULBAN IN SOUL Regular Exhibition",
+      "venue": "Gyohwa Art Center",
+      "location": "Paju"
+    },
+    {
+      "date": "2019-06-03",
+      "title": "21st Goyang Women Artists Exhibition",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2019-03-11",
+      "title": "MULBAN IN SOUL – 2019 Spring Special Members Exhibition",
+      "venue": "Aramnuri Library Gallery Bitteul",
+      "location": "Goyang"
+    },
+    {
+      "date": "2018-11-21",
+      "title": "28th Goyang Fine Arts Association Members Exhibition – Harmony & Healing",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2018-10-23",
+      "title": "20th Goyang Women Artists Exhibition",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2018-08-01",
+      "title": "Korea Watercolor Grand Exhibition International Exchange",
+      "venue": "Insa Art Plaza",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-06-20",
+      "title": "7th Water and Color Exhibition",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-06-16",
+      "title": "1st MULBAN IN SOUL Regular Exhibition",
+      "venue": "Heyri Gallery Pirang",
+      "location": "Paju"
+    },
+    {
+      "date": "2018-05-11",
+      "title": "Paris Women Artists Special Exhibition",
+      "venue": "Gallery Metanoia",
+      "location": "Paris, France"
+    },
+    {
+      "date": "2017-11-21",
+      "title": "27th Goyang Fine Arts Association Members Exhibition",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-08-19",
+      "title": "Art in Bloom Exhibition",
+      "venue": "Goyang Sports Complex Grounds",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-06-04",
+      "title": "Go Together – Seven Artists’ Friendship Exhibition",
+      "venue": "Geogi Coffee",
+      "location": "Seoul"
+    },
+    {
+      "date": "2017-05-21",
+      "title": "19th Goyang Women Artists Exhibition",
+      "venue": "Goyang Aramnuri Gallery Nuri",
+      "location": "Goyang"
+    },
+    {
+      "date": "2017-05-17",
+      "title": "6th Water and Color Exhibition",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-11-22",
+      "title": "26th Goyang Fine Arts Association Members Exhibition",
+      "venue": "Goyang Eoullimnuri Art Center",
+      "location": "Goyang"
+    },
+    {
+      "date": "2016-11-15",
+      "title": "Ilsan Western Police Station Opening Commemorative Exhibition",
+      "venue": "Ilsan Western Police Station",
+      "location": "Goyang"
+    },
+    {
+      "date": "2016-10-20",
+      "title": "2016 Goyang Arts Festival",
+      "venue": "Goyang International Flower Exhibition Grounds",
+      "location": "Goyang"
+    },
+    {
+      "date": "2016-08-02",
+      "title": "2016 Seoul Southwestern Art Club Joint Exhibition",
+      "venue": "Sindorim Art Space Gori",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-06-22",
+      "title": "5th Water and Color Exhibition",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-06-09",
+      "title": "Art World Festival",
+      "venue": "Art World",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-03-23",
+      "title": "Goyang Fine Arts Association 2015 New Members Exhibition",
+      "venue": "Hosoo Gallery",
+      "location": "Goyang"
+    },
+    {
+      "date": "2015-09-16",
+      "title": "23rd Insadong People Exhibition",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2015-06-17",
+      "title": "4th Water and Color Exhibition",
+      "venue": "Choyng Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2014-08-22",
+      "title": "Inha University Hospital 6-Person Exhibition 'With LOVE with ART'",
+      "venue": "Inha University Hospital Gallery",
+      "location": "Incheon"
+    },
+    {
+      "date": "2014-09-02",
+      "title": "7th Watercolor Festival",
+      "venue": "Seongnam Art Center",
+      "location": "Seongnam"
+    },
+    {
+      "date": "2014-07-26",
+      "title": "Gwangjang Art Festival",
+      "venue": "Yeouido Plaza",
+      "location": "Seoul"
+    },
+    {
+      "date": "2014-06-18",
+      "title": "3rd Water and Color Exhibition",
+      "venue": "Choyng Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2013-07-24",
+      "title": "2nd Water and Color Exhibition",
+      "venue": "Insa Art Plaza Gallery",
+      "location": "Seoul"
+    }
+  ],
+  "awards": [
+    {
+      "date": "2020-01-20",
+      "award": "Invited Artist, 18th Korea Painting Awards",
+      "venue": "Gallery La mer",
+      "location": "Seoul"
+    },
+    {
+      "date": "2018-01-24",
+      "award": "Special Prize, 14th Korea Watercolor Grand Exhibition",
+      "venue": "Insa Art Plaza",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-12-13",
+      "award": "Special Selection, 13th Korea Watercolor Grand Exhibition",
+      "venue": "KEPCO Art Center Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-08-19",
+      "award": "Honorable Mention, 32nd Korea Watercolor Contest",
+      "venue": "KEPCO Art Center Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2016-07-07",
+      "award": "Special Prize, 11th Namnong Art Exhibition",
+      "venue": "Mokpo Culture & Arts Center",
+      "location": "Mokpo"
+    },
+    {
+      "date": "2016-01-24",
+      "award": "Grand Prize & Special Selection, 14th Korea Painting Awards",
+      "venue": "Insa Art Plaza Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2015-11-14",
+      "award": "Special Prize & Selection, 12th Korea Watercolor Grand Exhibition",
+      "venue": "KEPCO Art Center Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2015-07-16",
+      "award": "Excellence Award, 10th Namnong Art Exhibition",
+      "venue": "Mokpo Culture & Arts Center",
+      "location": "Mokpo"
+    },
+    {
+      "date": "2015-01-27",
+      "award": "Encouragement Prize & Selection, 13th Korea Painting Awards",
+      "venue": "Insa Art Plaza Gallery",
+      "location": "Seoul"
+    },
+    {
+      "date": "2014-08-29",
+      "award": "Selection, 30th Korea Watercolor Contest",
+      "venue": "Seongnam Art Center",
+      "location": "Seongnam"
+    },
+    {
+      "date": "2014-07-08",
+      "award": "Selection, 15th Korea Women Art Exhibition",
+      "venue": "Hongik University Daehangno Art Center",
+      "location": "Seoul"
+    },
+    {
+      "date": "2014-06-19",
+      "award": "Special Selection, 9th Namnong Art Exhibition",
+      "venue": "Mokpo Culture & Arts Center",
+      "location": "Mokpo"
+    },
+    {
+      "date": "2014-05-16",
+      "award": "Selection, 39th Chungbuk Art Competition",
+      "venue": "Cheongju Arts Center",
+      "location": "Cheongju"
+    },
+    {
+      "date": "2011-12-28",
+      "award": "Encouragement Prize & Selection, 10th Korea Painting Awards",
+      "venue": "Insa Art Plaza Gallery",
+      "location": "Seoul"
+    }
+  ],
+  "affiliations": [
+    "Invited Artist, Korea Namnong Art Exhibition",
+    "Recommended Artist, Korea Watercolor Grand Exhibition",
+    "Invited Artist, Korea Painting Awards",
+    "Registered Artist, Art Shop (Western Painting)",
+    "Member, Korea Fine Arts Association",
+    "Member, Goyang Fine Arts Association",
+    "Representative, Two Design Art Studio",
+    "Director, Gallery Soma"
+  ],
+  "previous_positions": [
+    {
+      "position": "Adjunct Professor, Contemprorary Arts",
+      "institution": "Kyungbok University",
+      "period": "2014–2016",
+      "url": "https://i.namu.wiki/i/e7Owo7WkAdMPOZwVGXdyx73iMIZvgfkS7zPNKWp2EapAVQQUGpCqIINZKEfk9F5lsYaGj4FIwhte-XGfeccAj1ZA9RKIv3amA2xzZ-xcNLXY2Qzy_JohySXOkJSNQAtGDqHBg_v3rQSyVzqrYlqsaJbE4Eaw6jWICONGAMPjpL4.svg"
+    },
+    {
+      "position": "Instructor, Eunpyeong Lifelong Learning Center – Watercolor Class",
+      "institution": "Eunpyeong Lifelong Learning Center",
+      "period": "",
+      "url": "https://i.namu.wiki/i/e7Owo7WkAdMPOZwVGXdyx-vb4sCwBGPWxI8DEaB8rxg_BV7UN6tQ8YbZmY7GqIwMJmQeDz30S71VjIqjLDEOs_1dfWg7b-xGdWwWCotf6h8_ADBz-Ymuo-UOYkePJS-yTGyxQruyRDAAt2-Q08UrjlnJ9jANovh6Xxh8iVNEmBg.svg"
+    },
+    {
+      "position": "Instructor, Gangnam Joyful Library – Creative Picture Book Class",
+      "institution": "Gangnam Joyful Library",
+      "period": "",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_Gangnam%2C_Seoul.svg"
+    },
+    {
+      "position": "Vice Chair, Criticism Division, Goyang Fine Arts Association",
+      "institution": "Goyang Fine Arts Association",
+      "period": "",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Flag_of_Goyang.svg"
+    }
+  ],
+  "art_collections": [
+    "City of Goyang",
+    "Interpeople Co., Ltd.",
+    "Sorzen Research Institute",
+    "Jungsan First Church",
+    "Hyeonhae Co., Ltd.",
+    "Various private collectors"
+  ]
+}
