@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <Biography />
-      <Experience/>
-      <Exhibition/>
+      <Experience />
+      <Exhibition />
     </>
   );
 }
