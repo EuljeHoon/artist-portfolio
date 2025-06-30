@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import huJinKyungBio from "../assets/jinkyungBio.json";
-import Image from "next/image";
 import BiographyLinks from "../components/biography/BiographyLinks";
 
 const Biography = () => {
@@ -29,14 +28,10 @@ const Biography = () => {
                 className="w-40 h-52 sm:w-80 sm:h-[28rem] bg-gray-200 rounded-lg mb-4 sm:mb-6 flex items-center justify-center overflow-hidden"
                 style={{ scrollMarginTop: "80px" }}
               >
-                <Image
-                  src="/profile_image.jpeg"
+                <img
+                  src="./profile_image.jpeg"
                   alt="Artist Photo"
-                  width={320}
-                  height={448}
                   className="object-cover w-full h-full"
-                  priority
-                  unoptimized
                 />
               </div>
               <h3 className="text-3xl font-bold text-gray-800 text-center">
