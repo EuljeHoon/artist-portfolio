@@ -1,7 +1,7 @@
-'use client';
-import React from 'react';
-import { motion } from 'framer-motion';
-import huJinKyungBio from '../assets/jinkyungBio.json';
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import huJinKyungBio from "../assets/jinkyungBio.json";
 import Image from "next/image";
 import BiographyLinks from "../components/biography/BiographyLinks";
 
@@ -9,7 +9,10 @@ const Biography = () => {
   const { name, education, about } = huJinKyungBio;
 
   return (
-    <section id="biography" className="pt-16 md:pt-24 pb-16 bg-white px-4 sm:px-6 text-black">
+    <section
+      id="biography"
+      className="pt-16 md:pt-24 pb-16 bg-white px-4 sm:px-6 text-black"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-5 gap-8 lg:gap-12">
           {/* Artist Photo */}
@@ -21,7 +24,11 @@ const Biography = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="bg-white p-4 sm:p-10 shadow rounded-lg sm:rounded-2xl h-full flex flex-col items-center">
-              <div id="biography-photo" className="w-40 h-52 sm:w-80 sm:h-[28rem] bg-gray-200 rounded-lg mb-4 sm:mb-6 flex items-center justify-center overflow-hidden" style={{ scrollMarginTop: '80px' }}>
+              <div
+                id="biography-photo"
+                className="w-40 h-52 sm:w-80 sm:h-[28rem] bg-gray-200 rounded-lg mb-4 sm:mb-6 flex items-center justify-center overflow-hidden"
+                style={{ scrollMarginTop: "80px" }}
+              >
                 <Image
                   src="/profile_image.jpeg"
                   alt="Artist Photo"
@@ -29,9 +36,12 @@ const Biography = () => {
                   height={448}
                   className="object-cover w-full h-full"
                   priority
+                  unoptimized
                 />
               </div>
-              <h3 className="text-3xl font-bold text-gray-800 text-center">{name}</h3>
+              <h3 className="text-3xl font-bold text-gray-800 text-center">
+                {name}
+              </h3>
               <BiographyLinks />
             </div>
           </motion.div>
@@ -46,15 +56,22 @@ const Biography = () => {
           >
             {/* Artist Description */}
             <div className="p-4">
-              <h4 className="text-xl font-semibold mb-4 text-gray-800">About the Artist</h4>
-              <p className="text-gray-700 leading-relaxed text-sm" style={{ whiteSpace: 'pre-line' }}>
+              <h4 className="text-xl font-semibold mb-4 text-gray-800">
+                About the Artist
+              </h4>
+              <p
+                className="text-gray-700 leading-relaxed text-sm"
+                style={{ whiteSpace: "pre-line" }}
+              >
                 {about}
               </p>
             </div>
 
             {/* Education */}
             <div className="p-4">
-              <h4 className="text-xl font-semibold mb-4 text-gray-800">Education</h4>
+              <h4 className="text-xl font-semibold mb-4 text-gray-800">
+                Education
+              </h4>
               {education.map((edu, index) => (
                 <div key={index} className="flex items-start space-x-4">
                   {edu.url ? (
@@ -67,7 +84,9 @@ const Biography = () => {
                     <div className="w-10 h-10 bg-gray-200 rounded-full flex-shrink-0" />
                   )}
                   <div className="space-y-1">
-                    <p className="font-medium text-gray-800 text-sm">{edu.degree}</p>
+                    <p className="font-medium text-gray-800 text-sm">
+                      {edu.degree}
+                    </p>
                     <p className="text-gray-600 text-sm">{edu.department}</p>
                     <p className="text-gray-500 text-sm">{edu.institution}</p>
                     <p className="text-gray-400 text-xs">{edu.year}</p>
