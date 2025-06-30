@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import huJinKyungFullExperience from '../assets/hu_jin_kyung_full_experience.json';
+import huJinKyungFullExperience from '../assets/jinkyungBio.json';
 
 const Experience = () => {
   const previousPositions = huJinKyungFullExperience.previous_positions;
