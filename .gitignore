@@ -11,6 +11,7 @@ out/
 build/
 dist/
 
+.history/
 # -------------------------
 # ✅ TypeScript
 *.tsbuildinfo
