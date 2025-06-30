@@ -1,10 +1,10 @@
-'use client';
-import React, { useState } from 'react';
-import huJinKyungBio from '../../assets/jinkyungBio.json';
-import ExhibitionBox from '../common/ExhibitionBox';
+"use client";
+import React, { useState } from "react";
+import huJinKyungBio from "../../assets/jinkyungBio.json";
+import ExhibitionBox from "../common/ExhibitionBox";
 
 const GroupExhibition = () => {
-  const { group_exhibitions = {} } = huJinKyungBio;
+  const group_exhibitions = huJinKyungBio.group_exhibitions || {};
   const [open, setOpen] = useState(false);
 
   return (
@@ -16,31 +16,46 @@ const GroupExhibition = () => {
       >
         Group Exhibitions
         <span
-          className={`ml-2 text-lg transition-transform duration-200 ${open ? 'rotate-90' : ''}`}
+          className={`ml-2 text-lg transition-transform duration-200 ${
+            open ? "rotate-90" : ""
+          }`}
         >
           ▶
         </span>
       </button>
       {open && (
         <>
-          {Object.entries(group_exhibitions).map(([groupName, groupData]) => (
-            <ExhibitionBox
-              key={groupName}
-              title={groupName}
-              image={groupData.Image}
-              items={
-                Array.isArray(groupData)
-                  ? groupData
-                  : Array.isArray(groupData.Exhibitions)
+          {Object.entries(group_exhibitions).map(([groupName, groupData]) => {
+            // 배열인 경우를 처리
+            if (Array.isArray(groupData)) {
+              return (
+                <ExhibitionBox
+                  key={groupName}
+                  title={groupName}
+                  image={null}
+                  items={groupData}
+                />
+              );
+            }
+            return (
+              <ExhibitionBox
+                key={groupName}
+                title={groupName}
+                image={groupData.Image}
+                items={
+                  Array.isArray(groupData)
+                    ? groupData
+                    : Array.isArray(groupData.Exhibitions)
                     ? groupData.Exhibitions
                     : []
-              }
-            />
-          ))}
+                }
+              />
+            );
+          })}
         </>
       )}
     </div>
   );
 };
 
-export default GroupExhibition; 
+export default GroupExhibition;

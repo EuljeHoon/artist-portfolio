@@ -1,10 +1,10 @@
-'use client';
-import React, { useState } from 'react';
-import huJinKyungBio from '../../assets/jinkyungBio.json';
-import ExhibitionBox from '../common/ExhibitionBox';
+"use client";
+import React, { useState } from "react";
+import huJinKyungBio from "../../assets/jinkyungBio.json";
+import ExhibitionBox from "../common/ExhibitionBox";
 
 const ArtFair = () => {
-  const { art_fairs = {} } = huJinKyungBio;
+  const art_fairs = huJinKyungBio.art_fairs || {};
   const [open, setOpen] = useState(false);
 
   return (
@@ -16,31 +16,46 @@ const ArtFair = () => {
       >
         Art Fairs
         <span
-          className={`ml-2 text-lg transition-transform duration-200 ${open ? 'rotate-90' : ''}`}
+          className={`ml-2 text-lg transition-transform duration-200 ${
+            open ? "rotate-90" : ""
+          }`}
         >
           ▶
         </span>
       </button>
       {open && (
         <>
-          {Object.entries(art_fairs).map(([fairName, fairData]) => (
-            <ExhibitionBox
-              key={fairName}
-              title={fairName}
-              image={fairData.Image}
-              items={
-                Array.isArray(fairData)
-                  ? fairData
-                  : Array.isArray(fairData.Exhibitions)
+          {Object.entries(art_fairs).map(([fairName, fairData]) => {
+            // 배열인 경우를 처리
+            if (Array.isArray(fairData)) {
+              return (
+                <ExhibitionBox
+                  key={fairName}
+                  title={fairName}
+                  image={null}
+                  items={fairData}
+                />
+              );
+            }
+            return (
+              <ExhibitionBox
+                key={fairName}
+                title={fairName}
+                image={fairData.Image}
+                items={
+                  Array.isArray(fairData)
+                    ? fairData
+                    : Array.isArray(fairData.Exhibitions)
                     ? fairData.Exhibitions
                     : []
-              }
-            />
-          ))}
+                }
+              />
+            );
+          })}
         </>
       )}
     </div>
   );
 };
 
-export default ArtFair; 
+export default ArtFair;
