@@ -6,7 +6,7 @@ import ArtFair from './exhibition_list/ArtFair';
 
 const Exhibition = () => {
   return (
-    <section id="exhibitions" className="py-16 bg-white px-4 sm:px-6 text-black">
+    <section id="exhibitions" className="pt-50 md:pt-24 pb-16 bg-white px-4 sm:px-6 text-black">
       <header className="mb-12 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold">Exhibitions</h2>
       </header>

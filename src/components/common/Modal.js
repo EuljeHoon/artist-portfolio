@@ -10,11 +10,11 @@ const Modal = ({ open, onClose, title, children }) => {
       onClick={onClose}
     >
       <div
-        className="bg-neutral-900 text-white rounded-2xl shadow-2xl max-w-xl w-full p-8 relative animate-fadeIn max-h-[80vh] overflow-y-auto"
+        className="bg-white text-black rounded-2xl shadow-2xl sm:max-w-xl w-full p-8 relative animate-fadeIn max-h-[80vh] overflow-y-auto mx-4"
         onClick={e => e.stopPropagation()}
       >
         <button
-          className="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl transition"
+          className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl transition"
           onClick={onClose}
           aria-label="Close"
         >

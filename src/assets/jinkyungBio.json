@@ -16,463 +16,509 @@
       "url": "https://i.namu.wiki/i/mtwQnqukpp_U1bl20YN8rf-mG9ZxV3nYeNw087pn7ZvW4XY2_2qBEUuBI73vD5XJITcm2w8i7QWdhtGmunYp0j64Nn_WYvVsvZx1A9uYt-16yz3KkKjpFggl_5iom7afS1LcP8mTWF-MlPLAVrQktQ.svg"
     }
   ],
-  "solo_exhibitions": [
-    {
-      "date": "2024-02-28",
-      "title": "15th Solo Exhibition: Beauty with Hope",
-      "venue": "Gallery Soma",
-      "location": "Goyang"
-    },
-    {
-      "date": "2022-08-29",
-      "title": "14th Solo Exhibition: Bokdamari and Solely Contained",
-      "venue": "Gallery Bitteul, Aramnuri Library",
-      "location": "Goyang"
-    },
-    {
-      "date": "2022-08-24",
-      "title": "13th Solo Booth Exhibition: Bokdamari and Solely Contained at Seoul Modern Art Show 2022",
-      "venue": "S-Factory",
-      "location": "Seoul"
-    },
-    {
-      "date": "2022-06-07",
-      "title": "12th Solo Exhibition: Bokdamari and Solely Contained",
-      "venue": "M Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2022-05-11",
-      "title": "11th Solo Exhibition: Cats on Outing",
-      "venue": "Gallery Soma",
-      "location": "Goyang"
-    },
-    {
-      "date": "2021-03-15",
-      "title": "10th Solo Exhibition: Bokdamari and Solely Contained",
-      "venue": "Gallery Soma",
-      "location": "Goyang"
-    },
-    {
-      "date": "2020-08-17",
-      "title": "9th Solo Exhibition: Bokdamari",
-      "venue": "Gallery Soma",
-      "location": "Goyang"
-    },
-    {
-      "date": "2020-04-20",
-      "title": "8th Solo Exhibition: Bokdamari",
-      "venue": "The-K Savings Bank Customer Lounge",
-      "location": "Seoul"
-    },
-    {
-      "date": "2019-10-08",
-      "title": "7th Solo Exhibition: Bokdamari at Art Seoul 2019",
-      "venue": "Hangaram Art Museum, Seoul Arts Center (Booth 4)",
-      "location": "Seoul"
-    },
-    {
-      "date": "2018-09-12",
-      "title": "6th Solo Exhibition: Fulfilled Abundance",
-      "venue": "Unhyeon Palace Special Exhibition Hall",
-      "location": "Seoul"
-    },
-    {
-      "date": "2018-06-20",
-      "title": "5th Solo Exhibition: Happy Because We're Together",
-      "venue": "Gallery La mer",
-      "location": "Seoul"
-    },
-    {
-      "date": "2018-03-23",
-      "title": "4th Solo Exhibition: Family Is Love",
-      "venue": "Gallery Bitteul, Aramnuri Library",
-      "location": "Goyang"
-    },
-    {
-      "date": "2017-10-30",
-      "title": "3rd Solo Exhibition: If You Feel the Heart, You See Me",
-      "venue": "Gallery Mill",
-      "location": "Goyang"
-    },
-    {
-      "date": "2017-01-03",
-      "title": "2nd Solo Exhibition: Being Alive Is Beautiful",
-      "venue": "Gyohwa Art Center",
-      "location": "Paju"
-    },
-    {
-      "date": "2016-06-22",
-      "title": "1st Solo Exhibition: Cat's First Outing",
-      "venue": "Gallery La mer",
-      "location": "Seoul"
-    }
-  ],
-  "invited_solo_exhibitions": [
-    {
-      "date": "2025-02-01",
-      "title": "14th Invited Exhibition: Bokdamari and Solely Contained",
-      "venue": "Hyundai Department Store Mia Branch H Gallery x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2023-03-10",
-      "title": "13th Invited Exhibition: A Happy and Youthful Life with Hope",
-      "venue": "Marin Art Space",
-      "location": "Seoul"
-    },
-    {
-      "date": "2023-01-15",
-      "title": "12th Invited Exhibition: Cat–Human Empathy (Time of Communion with Cats)",
-      "venue": "The Nature Gallery",
-      "location": "Pyeongtaek"
-    },
-    {
-      "date": "2022-09-02",
-      "title": "11th Invited Exhibition: Bokdamari – Wishing under Moonlight",
-      "venue": "OLH EUM x Public Gallery, Cheongdam",
-      "location": "Seoul"
-    },
-    {
-      "date": "2022-02-04",
-      "title": "10th Invited Exhibition: Happy and Youthful Life",
-      "venue": "3C5Flower–Yeouido x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2021-08-24",
-      "title": "9th Invited Exhibition: A Life Filled with Hope Is Beautiful",
-      "venue": "3C5Flower–Centropolis, Jongno x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2021-08-06",
-      "title": "8th Invited Exhibition: Bokdamari – Where Does Blessing Come From?",
-      "venue": "WellPerion x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2021-06-11",
-      "title": "7th Invited Exhibition: Bokdamari and Solely Contained",
-      "venue": "Gallery Cafe Space (Goyang Cultural Bridge Support)",
-      "location": "Goyang"
-    },
-    {
-      "date": "2021-03-04",
-      "title": "6th Invited Exhibition: Bokdamari – Wishing for Health and Blessings",
-      "venue": "Gangnam GS Eye Clinic x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2020-10-27",
-      "title": "5th Invited Exhibition: Bokdamari",
-      "venue": "Nekisilvi–Deoksugung Palace Depalace x Public Gallery",
-      "location": "Seoul"
-    },
-    {
-      "date": "2020-02-20",
-      "title": "4th Invited Exhibition: Cat's Dream",
-      "venue": "Gallery Cafe Space",
-      "location": "Goyang"
-    },
-    {
-      "date": "2018-08-16",
-      "title": "3rd Invited Exhibition: Awakening as an Object",
-      "venue": "Gallery Cafe Aramtte",
-      "location": "Goyang"
-    },
-    {
-      "date": "2018-04-01",
-      "title": "2nd Invited Exhibition: Cats and Flowers",
-      "venue": "Gallery Cafe Letura",
-      "location": "Goyang"
-    },
-    {
-      "date": "2017-06-22",
-      "title": "1st Invited Exhibition: When Flowers Met Butterflies",
-      "venue": "Gallery Cafe Wolfs",
-      "location": "Goyang"
-    }
-  ],
-  "art_fairs": {
-    "LA Art Show": [
+  "solo_exhibitions": {
+    "Gallery Soma": {
+      "Image": "https://modo-phinf.pstatic.net/20220305_57/1646485145599eC6nT_JPEG/mosaS61qj8.jpeg?type=f320_320",
+      "Exhibitions": [
         {
-            "date": "2025-02-19",
-            "title": "LA Art Show 2025 (30th Anniversary)",
-            "venue": "LA Convention Center South Hall",
-            "location": "LA"
-        }
-    ],
-    "Affordable Art Fair Singapore": [
-        {
-            "date": "2023-11-09",
-            "title": "Affordable Art Fair Singapore",
-            "venue": "F1 Pit Building (Gallery Soma 3D-14)",
-            "location": "Singapore"
-        }
-    ],
-    "Shenzhen International Art Fair": [
-        {
-            "date": "2016-11-25",
-            "title": "Shenzhen International Art Fair",
-            "venue": "Shenzhen Convention Center (Wonsam Gallery Booth D1)",
-            "location": "Shenzhen, China"
-        }
-    ],
-    "Seoul Art Show": [
-        {
-            "date": "2024-12-24",
-            "title": "Seoul Art Show 2024",
-            "venue": "COEX A Hall (Gallery Soma Booth 109)",
-            "location": "Seoul"
+          "date": "2024-02-28",
+          "title": "15th Solo Exhibition: Beauty with Hope",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
         },
         {
-            "date": "2023-12-22",
-            "title": "Seoul Art Show 2023",
-            "venue": "COEX A Hall (Gallery Soma Booth 157)",
-            "location": "Seoul"
+          "date": "2022-05-11",
+          "title": "11th Solo Exhibition: Cats on Outing",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
         },
         {
-          "date": "2022-12-21",
-          "title": "Seoul Art Show 2022",
-          "venue": "COEX A Hall (Gallery Soma Booth 116)",
+          "date": "2020-08-17",
+          "title": "9th Solo Exhibition: Bokdamari",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        }
+      ]
+    },
+    "Gallery La mer": {
+      "Image": "https://pbs.twimg.com/profile_images/1192359350536269824/j3ejZJDI_400x400.jpg",
+      "Exhibitions": [
+        {
+          "date": "2018-06-20",
+          "title": "5th Solo Exhibition: Happy Because We're Together",
+          "venue": "Gallery La mer",
           "location": "Seoul"
         },
         {
-            "date": "2021-12-22",
-            "title": "Seoul Art Show 2021",
-            "venue": "COEX A Hall (Gallery Soma Booth 133)",
-            "location": "Seoul"
+          "date": "2016-06-22",
+          "title": "1st Solo Exhibition: Cat's First Outing",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
         }
-    ],
-    "PLAS": [
+      ]
+    },
+    "Gallery Bitteul": {
+      "Image": "https://www.artgy.or.kr/_asset/img/sub/goyang/g7_1_1.png",
+      "Exhibitions": [
         {
-            "date": "2025-05-22",
-            "title": "PLAS 2025 (Contemporary Art Seoul)",
-            "venue": "COEX B Hall (Gallery Soma Booth G47)",
-            "location": "Seoul"
+          "date": "2022-08-29",
+          "title": "14th Solo Exhibition: Bokdamari and Solely Contained",
+          "venue": "Gallery Bitteul, Aramnuri Library",
+          "location": "Goyang"
         },
         {
-            "date": "2024-05-23",
-            "title": "PLAS 2024 (Contemporary Art Seoul)",
-            "venue": "COEX B Hall (Gallery Soma Booth G51)",
-            "location": "Seoul"
-        },
-        {
-            "date": "2023-05-25",
-            "title": "PLAS 2023 (Contemporary Art Seoul)",
-            "venue": "COEX B Hall (Gallery Soma Booth G54)",
-            "location": "Seoul"
-        },
-        {
-            "date": "2022-05-26",
-            "title": "PLAS 2022 (Contemporary Art Seoul)",
-            "venue": "COEX B Hall (Gallery Soma Booth G50)",
-            "location": "Seoul"
+          "date": "2018-03-23",
+          "title": "4th Solo Exhibition: Family Is Love",
+          "venue": "Gallery Bitteul, Aramnuri Library",
+          "location": "Goyang"
         }
-
-    ],
-    "Busan International Art Fair(BAMA)": [
+      ]
+    },
+    "Other": [
+      {
+        "date": "2022-08-24",
+        "title": "13th Solo Booth Exhibition: Bokdamari and Solely Contained at Seoul Modern Art Show 2022",
+        "venue": "S-Factory",
+        "location": "Seoul"
+      },
+      {
+        "date": "2022-06-07",
+        "title": "12th Solo Exhibition: Bokdamari and Solely Contained",
+        "venue": "M Gallery",
+        "location": "Seoul"
+      },
+      {
+        "date": "2020-04-20",
+        "title": "8th Solo Exhibition: Bokdamari",
+        "venue": "The-K Savings Bank Customer Lounge",
+        "location": "Seoul"
+      },
+      {
+        "date": "2019-10-08",
+        "title": "7th Solo Exhibition: Bokdamari at Art Seoul 2019",
+        "venue": "Hangaram Art Museum, Seoul Arts Center (Booth 4)",
+        "location": "Seoul"
+      },
+      {
+        "date": "2018-09-12",
+        "title": "6th Solo Exhibition: Fulfilled Abundance",
+        "venue": "Unhyeon Palace Special Exhibition Hall",
+        "location": "Seoul"
+      },
+      {
+        "date": "2017-10-30",
+        "title": "3rd Solo Exhibition: If You Feel the Heart, You See Me",
+        "venue": "Gallery Mill",
+        "location": "Goyang"
+      },
+      {
+        "date": "2017-01-03",
+        "title": "2nd Solo Exhibition: Being Alive Is Beautiful",
+        "venue": "Gyohwa Art Center",
+        "location": "Paju"
+      }
+    ]
+  },
+  "invited_solo_exhibitions": {
+    "Public Gallery": {
+      "Image": "https://image.rocketpunch.com/company/28160/publicgallery_logo_1489738497.jpg?s=400x400&t=inside",
+      "Exhibitions": [
         {
-            "date": "2025-04-03",
-            "title": "14th Busan International Art Fair (BAMA 2025)",
-            "venue": "BEXCO (Gallery Soma Booth C01)",
-            "location": "Busan"
+          "date": "2022-09-02",
+          "title": "11th Invited Exhibition: Bokdamari – Wishing under Moonlight",
+          "venue": "OLH EUM x Public Gallery, Cheongdam",
+          "location": "Seoul"
         },
         {
-            "date": "2024-04-11",
-            "title": "13th Busan International Art Fair BAMA 2024",
-            "venue": "BEXCO (Gallery Soma Booth B13)",
-            "location": "Busan"
+          "date": "2022-02-04",
+          "title": "10th Invited Exhibition: Happy and Youthful Life",
+          "venue": "3C5Flower–Yeouido x Public Gallery",
+          "location": "Seoul"
         },
         {
-            "date": "2023-03-02",
-            "title": "12th Busan International Art Fair BAMA 2023",
-            "venue": "BEXCO (Gallery Soma Booth B02)",
-            "location": "Busan"
+          "date": "2021-08-24",
+          "title": "9th Invited Exhibition: A Life Filled with Hope Is Beautiful",
+          "venue": "3C5Flower–Centropolis, Jongno x Public Gallery",
+          "location": "Seoul"
         },
         {
-            "date": "2022-04-07",
-            "title": "11th Busan International Art Fair BAMA 2022",
-            "venue": "BEXCO (Gallery Soma Booth C18)",
-            "location": "Busan"
+          "date": "2021-08-06",
+          "title": "8th Invited Exhibition: Bokdamari – Where Does Blessing Come From?",
+          "venue": "WellPerion x Public Gallery",
+          "location": "Seoul"
         },
         {
-            "date": "2021-04-08",
-            "title": "10th Busan International Art Fair BAMA 2021",
-            "venue": "BEXCO (Gallery Soma Booth F10)",
-            "location": "Busan"
+          "date": "2021-03-04",
+          "title": "6th Invited Exhibition: Bokdamari – Wishing for Health and Blessings",
+          "venue": "Gangnam GS Eye Clinic x Public Gallery",
+          "location": "Seoul"
+        },
+        {
+          "date": "2020-10-27",
+          "title": "5th Invited Exhibition: Bokdamari",
+          "venue": "Nekisilvi–Deoksugung Palace Depalace x Public Gallery",
+          "location": "Seoul"
         }
-    ],
-    "Art:Gwangju": [
+      ]
+    },
+    "Other": [
+      {
+        "date": "2025-02-01",
+        "title": "14th Invited Exhibition: Bokdamari and Solely Contained",
+        "venue": "Hyundai Department Store Mia Branch H Gallery x Public Gallery",
+        "location": "Seoul"
+      },
+      {
+        "date": "2023-03-10",
+        "title": "13th Invited Exhibition: A Happy and Youthful Life with Hope",
+        "venue": "Marin Art Space",
+        "location": "Seoul"
+      },
+      {
+        "date": "2023-01-15",
+        "title": "12th Invited Exhibition: Cat–Human Empathy (Time of Communion with Cats)",
+        "venue": "The Nature Gallery",
+        "location": "Pyeongtaek"
+      },
+      {
+        "date": "2021-06-11",
+        "title": "7th Invited Exhibition: Bokdamari and Solely Contained",
+        "venue": "Gallery Cafe Space (Goyang Cultural Bridge Support)",
+        "location": "Goyang"
+      },
+      {
+        "date": "2020-02-20",
+        "title": "4th Invited Exhibition: Cat's Dream",
+        "venue": "Gallery Cafe Space",
+        "location": "Goyang"
+      },
+      {
+        "date": "2018-08-16",
+        "title": "3rd Invited Exhibition: Awakening as an Object",
+        "venue": "Gallery Cafe Aramtte",
+        "location": "Goyang"
+      },
+      {
+        "date": "2018-04-01",
+        "title": "2nd Invited Exhibition: Cats and Flowers",
+        "venue": "Gallery Cafe Letura",
+        "location": "Goyang"
+      },
+      {
+        "date": "2017-06-22",
+        "title": "1st Invited Exhibition: When Flowers Met Butterflies",
+        "venue": "Gallery Cafe Wolfs",
+        "location": "Goyang"
+      }
+    ]
+  },
+  "art_fairs": {
+    "LA Art Show": {
+      "Image": "https://cdn.vor.us/event/615645/2aa0ed473eea48c5b11d83d8d57b29a3.image!png.14235.png.LAARTSHOW.png",
+      "Exhibitions": [
         {
-            "date": "2024-10-10",
-            "title": "Art:Gwangju:24",
-            "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-9)",
-            "location": "Gwangju"
-        },
-        {
-            "date": "2023-09-21",
-            "title": "Art:Gwangju:23",
-            "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth D-1)",
-            "location": "Gwangju"
-        },
-        {
-            "date": "2022-10-06",
-            "title": "Art:Gwangju:22",
-            "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-6)",
-            "location": "Gwangju"
-        },
-        {
-            "date": "2021-10-28",
-            "title": "Art:Gwangju:21",
-            "venue": "Kim Dae-jung Convention Center T4 (Art Channel One Booth A16)",
-            "location": "Gwangju"
+          "date": "2025-02-19",
+          "title": "LA Art Show 2025 (30th Anniversary)",
+          "venue": "LA Convention Center South Hall",
+          "location": "LA"
         }
-    ],
-    "Bank Art Fair": [
+      ]
+    },
+    "Affordable Art Fair Singapore": {
+      "Image": "https://ik.imagekit.io/theartling/prod/tr:w-1080,h-1080,cm-pad_resize/events/Event/7c71b13bb589448196eccdebd5ce127d.jpg",
+      "Exhibitions": [
         {
-            "date": "2025-03-13",
-            "title": "14th Bank Art Fair",
-            "venue": "Fairmont Ambassador Hotel (Gallery Soma Room 1206)",
-            "location": "Seoul"
-        },
-        {
-            "date": "2024-12-13",
-            "title": "13th Bank Art Fair Singapore",
-            "venue": "Pan Pacific Hotel Singapore (Gallery Soma Room 715)",
-            "location": "Singapore"
-        },
-        {
-            "date": "2024-08-08",
-            "title": "12th Bank Art Fair SETEC",
-            "venue": "SETEC Hall 3 (Gallery Soma Booth 3-8)",
-            "location": "Seoul"
-        },
-        {
-            "date": "2024-03-07",
-            "title": "11th Bank Art Fair Lotte Hotel",
-            "venue": "Lotte Hotel (Gallery Soma Room 2618)",
-            "location": "Seoul"
-        },
-        {
-            "date": "2023-08-10",
-            "title": "10th Bank Art Fair SETEC",
-            "venue": "SETEC Hall 3 (Gallery Soma Booth 3-45)",
-            "location": "Seoul"
+          "date": "2023-11-09",
+          "title": "Affordable Art Fair Singapore",
+          "venue": "F1 Pit Building (Gallery Soma 3D-14)",
+          "location": "Singapore"
         }
-
-    ],
-    "Ulsan International Art Fair(UiAF)": [
+      ]
+    },
+    "Shenzhen International Art Fair": {
+      "Image": "https://ik.imagekit.io/theartling/prod/tr:w-1080,h-1080,cm-pad_resize/events/Event/b75721f2b8744f378f7472bc7e1083bf.jpg",
+      "Exhibitions": [
         {
-            "date": "2025-06-05",
-            "title": "Ulsan International Art Fair UiAF 2025",
-            "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D24)",
-            "location": "Ulsan"
-        },
-        {
-            "date": "2024-06-13",
-            "title": "Ulsan International Art Fair UiAF 2024",
-            "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D08)",
-            "location": "Ulsan"
+          "date": "2016-11-25",
+          "title": "Shenzhen International Art Fair",
+          "venue": "Shenzhen Convention Center (Wonsam Gallery Booth D1)",
+          "location": "Shenzhen, China"
         }
-
-    ],
-    "Incheon Art Show": [
+      ]
+    },
+    "Seoul Art Show": {
+      "Image": "https://www.coexcenter.com/wp-content/uploads/2023/12/%EC%BD%94%EC%97%91%EC%8A%A4%EC%A0%9C%EC%B6%9C%EC%9A%A9-%EB%A1%9C%EA%B3%A0_610x610-SEOUL-ART-SHOW.jpg",
+      "Exhibitions": [
         {
-            "date": "2024-11-21",
-            "title": "4th Incheon Art Show 2024",
-            "venue": "Songdo Convensia (Gallery Soma Booth C-22)",
-            "location": "Incheon"
+          "date": "2024-12-24",
+          "title": "Seoul Art Show 2024",
+          "venue": "COEX A Hall (Gallery Soma Booth 109)",
+          "location": "Seoul"
         },
         {
-            "date": "2023-11-23",
-            "title": "3rd Incheon Asia Art Show 2023",
-            "venue": "Songdo Convensia (Gallery Soma Booth B15)",
-            "location": "Incheon"
+          "date": "2023-12-22",
+          "title": "Seoul Art Show 2023",
+          "venue": "COEX A Hall (Gallery Soma Booth 157)",
+          "location": "Seoul"
         },
         {
-          "date": "2022-11-16",
-          "title": "2nd Incheon Asia Art Show 2022",
-          "venue": "Songdo Convensia (Gallery Soma Booth X42, X43)",
+        "date": "2022-12-21",
+        "title": "Seoul Art Show 2022",
+        "venue": "COEX A Hall (Gallery Soma Booth 116)",
+        "location": "Seoul"
+        },
+        {
+          "date": "2021-12-22",
+          "title": "Seoul Art Show 2021",
+          "venue": "COEX A Hall (Gallery Soma Booth 133)",
+          "location": "Seoul"
+        }
+      ]
+    },
+    "PLAS": {
+      "Image": "https://cdn.imweb.me/thumbnail/20240226/b4959e928b519.png",
+      "Exhibitions": [
+        {
+          "date": "2025-05-22",
+          "title": "PLAS 2025 (Contemporary Art Seoul)",
+          "venue": "COEX B Hall (Gallery Soma Booth G47)",
+          "location": "Seoul"
+        },
+        {
+          "date": "2024-05-23",
+          "title": "PLAS 2024 (Contemporary Art Seoul)",
+          "venue": "COEX B Hall (Gallery Soma Booth G51)",
+          "location": "Seoul"
+        },
+        {
+          "date": "2023-05-25",
+          "title": "PLAS 2023 (Contemporary Art Seoul)",
+          "venue": "COEX B Hall (Gallery Soma Booth G54)",
+          "location": "Seoul"
+        },
+        {  
+          "date": "2022-05-26",
+          "title": "PLAS 2022 (Contemporary Art Seoul)",
+          "venue": "COEX B Hall (Gallery Soma Booth G50)",
+          "location": "Seoul"
+        }
+      ]
+    },
+    "Seoul Modern Art Show": {
+      "Image": "https://mblogthumb-phinf.pstatic.net/MjAyMDA1MzBfMjYg/MDAxNTkwODA4NjAwMjE2.Cx07N9RWdBT6jL3I7R97-7FvZnXDfDT4ur15cTg0dLAg.eeCmX8eqcwRgvewe5OBzKBjcT_h9CtHjochOEpKajE8g.JPEG.spodc/%EC%84%9C%EC%9A%B8%EB%AA%A8%EB%8D%98%EC%95%84%ED%8A%B8%EC%87%BC2020_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg?type=w800",
+      "Exhibitions": [
+        {
+          "date": "2020-05-30",
+          "title": "Seoul Modern Art Show 2020",
+          "venue": "Korea Electric Power Art Center + Online Exhibition",
+          "location": "Seoul"
+        }
+      ]
+    },
+    "Busan International Art Fair(BAMA)": {
+      "Image": "http://www.bamabusan.com/image/main_logo.png",
+      "Exhibitions": [
+        {
+          "date": "2025-04-03",
+          "title": "14th Busan International Art Fair (BAMA 2025)",
+          "venue": "BEXCO (Gallery Soma Booth C01)",
+          "location": "Busan"
+        },
+        {
+          "date": "2024-04-11",
+          "title": "13th Busan International Art Fair BAMA 2024",
+          "venue": "BEXCO (Gallery Soma Booth B13)",
+          "location": "Busan"
+        },
+        {
+          "date": "2023-03-02",
+          "title": "12th Busan International Art Fair BAMA 2023",
+          "venue": "BEXCO (Gallery Soma Booth B02)",
+          "location": "Busan"
+        },
+        {
+          "date": "2022-04-07",
+          "title": "11th Busan International Art Fair BAMA 2022",
+          "venue": "BEXCO (Gallery Soma Booth C18)",
+          "location": "Busan"
+        },
+        {
+          "date": "2021-04-08",
+          "title": "10th Busan International Art Fair BAMA 2021",
+          "venue": "BEXCO (Gallery Soma Booth F10)",
+          "location": "Busan"
+        }
+      ]
+    },
+    "Art:Gwangju": {
+      "Image": "https://images.artfacts.net/exhibpics/preview/2ef84284-71f7-4416-83de-5fd30db6b221",
+      "Exhibitions": [
+        {
+          "date": "2024-10-10",
+          "title": "Art:Gwangju:24",
+          "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-9)",
+          "location": "Gwangju"
+        },
+        {
+          "date": "2023-09-21",
+          "title": "Art:Gwangju:23",
+          "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth D-1)",
+          "location": "Gwangju"
+        },
+        {
+          "date": "2022-10-06",
+          "title": "Art:Gwangju:22",
+          "venue": "Kim Dae-jung Convention Center (Gallery Soma Booth A-6)",
+          "location": "Gwangju"
+        },
+        {
+          "date": "2021-10-28",
+          "title": "Art:Gwangju:21",
+          "venue": "Kim Dae-jung Convention Center T4 (Art Channel One Booth A16)",
+          "location": "Gwangju"
+        }
+      ]
+    },
+    "Bank Art Fair": {
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0LxF4uSyvKvRcVLOO59EJc6eOcQSNUFZIQ&s",
+      "Exhibitions": [
+        {
+          "date": "2025-03-13",
+          "title": "14th Bank Art Fair",
+          "venue": "Fairmont Ambassador Hotel (Gallery Soma Room 1206)",
+          "location": "Seoul"
+        },
+        {
+          "date": "2024-12-13",
+          "title": "13th Bank Art Fair Singapore",
+          "venue": "Pan Pacific Hotel Singapore (Gallery Soma Room 715)",
+          "location": "Singapore"
+        },
+        {
+          "date": "2024-08-08",
+          "title": "12th Bank Art Fair SETEC",
+          "venue": "SETEC Hall 3 (Gallery Soma Booth 3-8)",
+          "location": "Seoul"
+        },
+        {
+          "date": "2024-03-07",
+          "title": "11th Bank Art Fair Lotte Hotel",
+          "venue": "Lotte Hotel (Gallery Soma Room 2618)",
+          "location": "Seoul"
+        },
+        {
+          "date": "2023-08-10",
+          "title": "10th Bank Art Fair SETEC",
+          "venue": "SETEC Hall 3 (Gallery Soma Booth 3-45)",
+          "location": "Seoul"
+        }
+      ]
+    },
+    "Ulsan International Art Fair(UiAF)": {
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzj8wWMa0RbGVdW0VFN0A97nx1QUPBrdiMQ&s",
+      "Exhibitions": [
+        {
+          "date": "2025-06-05",
+          "title": "Ulsan International Art Fair UiAF 2025",
+          "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D24)",
+          "location": "Ulsan"
+        },
+        {
+          "date": "2024-06-13",
+          "title": "Ulsan International Art Fair UiAF 2024",
+          "venue": "Ulsan Exhibition Convention Center (Gallery Soma Booth D08)",
+          "location": "Ulsan"
+        }
+      ]
+    },
+    "Incheon Art Show": {
+      "Image": "https://d7hftxdivxxvm.cloudfront.net/?height=300&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F8Y0iSp9ad59wGsC5VoMyqA%2Flarger.jpg&width=300",
+      "Exhibitions": [
+        {
+          "date": "2024-11-21",
+          "title": "4th Incheon Art Show 2024",
+          "venue": "Songdo Convensia (Gallery Soma Booth C-22)",
           "location": "Incheon"
         },
         {
-          "date": "2021-11-18",
-          "title": "1st Incheon Asia Art Show 2021",
-          "venue": "Songdo Convensia (Gallery Soma Booth D7)",
+          "date": "2023-11-23",
+          "title": "3rd Incheon Asia Art Show 2023",
+          "venue": "Songdo Convensia (Gallery Soma Booth B15)",
           "location": "Incheon"
-        }
-    ],
-    "Seoul International Art Expo": [
-        {
-            "date": "2023-02-09",
-            "title": "Seoul International Art Expo 2023",
-            "venue": "COEX C Hall (Gallery Soma Booth 611)",
-            "location": "Seoul"
         },
         {
-            "date": "2018-01-23",
-            "title": "Seoul International Art Expo",
-            "venue": "COEX B2 Hall (Lydia Gallery Booth)",
-            "location": "Seoul"
-        }
-    ],
-    "Diaf PLUS": [
+        "date": "2022-11-16",
+        "title": "2nd Incheon Asia Art Show 2022",
+        "venue": "Songdo Convensia (Gallery Soma Booth X42, X43)",
+        "location": "Incheon"
+        },
         {
-            "date": "2024-11-07",
-            "title": "Diaf PLUS 2024",
-            "venue": "EXCO Hall 4 & 5 (Gallery Soma Booth C-24)",
-            "location": "Daegu"
+        "date": "2021-11-18",
+        "title": "1st Incheon Asia Art Show 2021",
+        "venue": "Songdo Convensia (Gallery Soma Booth D7)",
+        "location": "Incheon"
         }
-    ],
-    "DKAF Daejeon K-Art Fair": [
+      ]
+    },
+    "Seoul International Art Expo": {
+      "Image": "https://og-data.s3.amazonaws.com/media/exhibitions/image/13279/ei_13279.png",
+      "Exhibitions": [
         {
-            "date": "2024-08-14",
-            "title": "DKAF Daejeon K-Art Fair",
-            "venue": "DCC Daejeon Convention Center (Gallery Soma Booth C-5)",
-            "location": "Daejeon"
-        }
-    ],
-    "Gyeongju Art Fair": [
+          "date": "2023-02-09",
+          "title": "Seoul International Art Expo 2023",
+          "venue": "COEX C Hall (Gallery Soma Booth 611)",
+          "location": "Seoul"
+        },
         {
-            "date": "2022-09-28",
-            "title": "Gyeongju Art Fair 2022",
-            "venue": "Gyeongju Exhibition & Convention Center (Gallery Soma Booth 33)",
-            "location": "Gyeongju"
+          "date": "2018-01-23",
+          "title": "Seoul International Art Expo",
+          "venue": "COEX B2 Hall (Lydia Gallery Booth)",
+          "location": "Seoul"
         }
-    ],
-    "Korea Art Show": [
+      ]
+    },
+    "Diaf PLUS": {
+      "Image": "https://d7hftxdivxxvm.cloudfront.net/?height=212&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FuKYuHEAGCRG8OmYKx8cx7g%2Flarger.jpg&width=424",
+      "Exhibitions": [
         {
-            "date": "2022-05-04",
-            "title": "Korea Art Show Suwon 2022",
-            "venue": "Suwon Convention Center (Gallery Soma Booth E48)",
-            "location": "Suwon"
+          "date": "2024-11-07",
+          "title": "Diaf PLUS 2024",
+          "venue": "EXCO Hall 4 & 5 (Gallery Soma Booth C-24)",
+          "location": "Daegu"
         }
-    ],
-    "Seoul Modern Art Show": [
-        {
-            "date": "2020-05-30",
-            "title": "Seoul Modern Art Show 2020",
-            "venue": "Korea Electric Power Art Center + Online Exhibition",
-            "location": "Seoul"
-        }
-    ],
-    "Pet Seoul": [
-        {
-            "date": "2017-08-18",
-            "title": "Pet Seoul 2017",
-            "venue": "COEX B Hall (Lydia Gallery Booth A-01)",
-            "location": "Seoul"
-        }
-    ],
-    "HANDMADE KOREA": [
-        {
-            "date": "2017-07-20",
-            "title": "HANDMADE KOREA 2017",
-            "venue": "COEX C Hall (Lydia Gallery Booth H-Q09)",
-            "location": "Seoul"
-        }
+      ]
+    },
+    "Other": [
+      {
+          "date": "2024-08-14",
+          "title": "DKAF Daejeon K-Art Fair",
+          "venue": "DCC Daejeon Convention Center (Gallery Soma Booth C-5)",
+          "location": "Daejeon"
+      },
+      {
+          "date": "2022-09-28",
+          "title": "Gyeongju Art Fair 2022",
+          "venue": "Gyeongju Exhibition & Convention Center (Gallery Soma Booth 33)",
+          "location": "Gyeongju"
+      },
+      {
+          "date": "2022-05-04",
+          "title": "Korea Art Show Suwon 2022",
+          "venue": "Suwon Convention Center (Gallery Soma Booth E48)",
+          "location": "Suwon"
+      },
+      {
+          "date": "2017-08-18",
+          "title": "Pet Seoul 2017",
+          "venue": "COEX B Hall (Lydia Gallery Booth A-01)",
+          "location": "Seoul"
+      },
+      {
+          "date": "2017-07-20",
+          "title": "HANDMADE KOREA 2017",
+          "venue": "COEX C Hall (Lydia Gallery Booth H-Q09)",
+          "location": "Seoul"
+      }
     ]
   },
   "group_exhibitions": {
@@ -484,68 +530,71 @@
         "location": "Paris, France"
       }
     ],
-    "Gallery Soma": [
-      {
-        "date": "2025-01-04",
-        "title": "16th Gallery Soma Planned Exhibition – Grand Reopening ‘Restart!’",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2024-07-17",
-        "title": "15th Gallery Soma Planned Exhibition – Good Luck! 4",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2024-01-31",
-        "title": "13th Gallery Soma Planned Lunar New Year Auction Exhibition – ‘Our 설날’",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2023-08-16",
-        "title": "10th Gallery Soma Planned Exhibition – Good Luck! 3",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2022-12-07",
-        "title": "7th Gallery Soma Planned Exhibition – Enjoy Art",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2022-07-27",
-        "title": "4th Gallery Soma Planned Exhibition – Good Luck! 2",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2021-08-16",
-        "title": "3rd Gallery Soma Planned Exhibition – Good Luck!",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2021-02-22",
-        "title": "2nd Gallery Soma Planned Exhibition – A World with Animals",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2020-09-28",
-        "title": "1st Gallery Soma Planned Exhibition – Stories of Autumn",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      },
-      {
-        "date": "2020-07-20",
-        "title": "Mom & Son Exhibition – Works by a Painter Mother and Twin Son",
-        "venue": "Gallery Soma",
-        "location": "Goyang"
-      }
-    ],
+    "Gallery Soma": {
+      "Image": "https://modo-phinf.pstatic.net/20220305_57/1646485145599eC6nT_JPEG/mosaS61qj8.jpeg?type=f320_320",
+      "Exhibitions": [
+        {
+          "date": "2025-01-04",
+          "title": "16th Gallery Soma Planned Exhibition – Grand Reopening ‘Restart!’",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2024-07-17",
+          "title": "15th Gallery Soma Planned Exhibition – Good Luck! 4",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2024-01-31",
+          "title": "13th Gallery Soma Planned Lunar New Year Auction Exhibition – ‘Our 설날’",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2023-08-16",
+          "title": "10th Gallery Soma Planned Exhibition – Good Luck! 3",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2022-12-07",
+          "title": "7th Gallery Soma Planned Exhibition – Enjoy Art",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2022-07-27",
+          "title": "4th Gallery Soma Planned Exhibition – Good Luck! 2",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2021-08-16",
+          "title": "3rd Gallery Soma Planned Exhibition – Good Luck!",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2021-02-22",
+          "title": "2nd Gallery Soma Planned Exhibition – A World with Animals",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2020-09-28",
+          "title": "1st Gallery Soma Planned Exhibition – Stories of Autumn",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        },
+        {
+          "date": "2020-07-20",
+          "title": "Mom & Son Exhibition – Works by a Painter Mother and Twin Son",
+          "venue": "Gallery Soma",
+          "location": "Goyang"
+        }
+      ]
+    },
     "Mulban in Soul": [
       {
         "date": "2022-02-02",
@@ -628,58 +677,64 @@
         "location": "Goyang"
       }
     ],
-    "Exhibitions @ Gallery La Mer":[
-      {
-        "date": "2020-01-20",
-        "title": "18th Korea Painting Awards Invitational Artist",
-        "venue": "Gallery La mer",
-        "location": "Seoul"
-      },
-      {
-        "date": "2018-06-20",
-        "title": "7th Water and Color Exhibition",
-        "venue": "Gallery La mer",
-        "location": "Seoul"
-      },
-      {
-        "date": "2017-05-17",
-        "title": "6th Water and Color Exhibition",
-        "venue": "Gallery La mer",
-        "location": "Seoul"
-      },
-      {
-        "date": "2016-06-22",
-        "title": "5th Water and Color Exhibition",
-        "venue": "Gallery La mer",
-        "location": "Seoul"
-      },
-      {
-        "date": "2015-09-16",
-        "title": "23rd Insadong People Exhibition",
-        "venue": "Gallery La mer",
-        "location": "Seoul"
-      }
-    ],
-    "Exhibitions @ Insa Art Plaza":[
-      {
-        "date": "2021-02-24",
-        "title": "19th Korea Painting Awards Invitational Exhibition",
-        "venue": "Insa Art Plaza 2nd Floor",
-        "location": "Seoul"
-      },
-      {
-        "date": "2018-08-01",
-        "title": "Korea Watercolor Grand Exhibition International Exchange",
-        "venue": "Insa Art Plaza",
-        "location": "Seoul"
-      },
-      {
-        "date": "2013-07-24",
-        "title": "2nd Water and Color Exhibition",
-        "venue": "Insa Art Plaza Gallery",
-        "location": "Seoul"
-      }
-    ],
+    "Exhibitions @ Gallery La Mer":{
+      "Image": "https://pbs.twimg.com/profile_images/1192359350536269824/j3ejZJDI_400x400.jpg",
+      "Exhibitions": [
+        {
+          "date": "2020-01-20",
+          "title": "18th Korea Painting Awards Invitational Artist",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
+        },
+        {
+          "date": "2018-06-20",
+          "title": "7th Water and Color Exhibition",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
+        },
+        {
+          "date": "2017-05-17",
+          "title": "6th Water and Color Exhibition",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
+        },
+        {
+          "date": "2016-06-22",
+          "title": "5th Water and Color Exhibition",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
+        },
+        {
+          "date": "2015-09-16",
+          "title": "23rd Insadong People Exhibition",
+          "venue": "Gallery La mer",
+          "location": "Seoul"
+        }
+      ]
+    },
+    "Exhibitions @ Insa Art Plaza":{
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ATxjLH56V35sdE97E7lkcMSe7VDGqzMpWQ&s",
+      "Exhibitions": [
+        {
+          "date": "2021-02-24",
+          "title": "19th Korea Painting Awards Invitational Exhibition",
+          "venue": "Insa Art Plaza 2nd Floor",
+          "location": "Seoul"
+        },
+        {
+          "date": "2018-08-01",
+          "title": "Korea Watercolor Grand Exhibition International Exchange",
+          "venue": "Insa Art Plaza",
+          "location": "Seoul"
+        },
+        {
+          "date": "2013-07-24",
+          "title": "2nd Water and Color Exhibition",
+          "venue": "Insa Art Plaza Gallery",
+          "location": "Seoul"
+        }
+      ]
+    },
     "other exhibitions":[
       {
         "date": "2021-10-01",

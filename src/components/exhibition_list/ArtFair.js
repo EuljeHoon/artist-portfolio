@@ -22,11 +22,22 @@ const ArtFair = () => {
         </span>
       </button>
       {open && (
-        <div>
-          {Object.entries(art_fairs).map(([fairName, fairItems]) => (
-            <ExhibitionBox key={fairName} title={fairName} items={fairItems} />
+        <>
+          {Object.entries(art_fairs).map(([fairName, fairData]) => (
+            <ExhibitionBox
+              key={fairName}
+              title={fairName}
+              image={fairData.Image}
+              items={
+                Array.isArray(fairData)
+                  ? fairData
+                  : Array.isArray(fairData.Exhibitions)
+                    ? fairData.Exhibitions
+                    : []
+              }
+            />
           ))}
-        </div>
+        </>
       )}
     </div>
   );

@@ -23,8 +23,19 @@ const GroupExhibition = () => {
       </button>
       {open && (
         <>
-          {Object.entries(group_exhibitions).map(([groupName, groupItems]) => (
-            <ExhibitionBox key={groupName} title={groupName} items={groupItems} />
+          {Object.entries(group_exhibitions).map(([groupName, groupData]) => (
+            <ExhibitionBox
+              key={groupName}
+              title={groupName}
+              image={groupData.Image}
+              items={
+                Array.isArray(groupData)
+                  ? groupData
+                  : Array.isArray(groupData.Exhibitions)
+                    ? groupData.Exhibitions
+                    : []
+              }
+            />
           ))}
         </>
       )}

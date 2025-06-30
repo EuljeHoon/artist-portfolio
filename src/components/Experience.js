@@ -7,7 +7,7 @@ const Experience = () => {
   const previousPositions = huJinKyungFullExperience.previous_positions;
 
   return (
-    <section id="experience" className="py-16 bg-white px-4 sm:px-6 text-black">
+    <section id="experience" className="pt-50 md:pt-24 pb-16 bg-white px-4 sm:px-6 text-black">
       <header className="mb-12 text-center">
         <motion.h2
           className="text-3xl sm:text-4xl font-bold"

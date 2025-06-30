@@ -3,34 +3,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import huJinKyungBio from '../assets/jinkyungBio.json';
 import Image from "next/image";
+import BiographyLinks from "../components/biography/BiographyLinks";
 
 const Biography = () => {
   const { name, education, about } = huJinKyungBio;
 
   return (
-    <section id="biography" className="py-16 bg-white px-4 sm:px-6 text-black">
+    <section id="biography" className="pt-16 md:pt-24 pb-16 bg-white px-4 sm:px-6 text-black">
       <div className="max-w-6xl mx-auto">
-        <header className="mb-12 text-center">
-          <motion.h2
-            className="text-3xl sm:text-4xl font-bold"
-            initial={{ opacity: 0, y: -20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            Biography
-          </motion.h2>
-          <motion.p
-            className="mt-3 text-base sm:text-lg text-gray-700"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-          >
-            Artist Profile & Background
-          </motion.p>
-        </header>
-
         <div className="grid md:grid-cols-5 gap-8 lg:gap-12">
           {/* Artist Photo */}
           <motion.div
@@ -40,8 +20,8 @@ const Biography = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="bg-white p-10 shadow-sm border border-gray-200 h-full flex flex-col items-center">
-              <div className="w-80 h-[28rem] bg-gray-200 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
+            <div className="bg-white p-4 sm:p-10 shadow rounded-lg sm:rounded-2xl h-full flex flex-col items-center">
+              <div id="biography-photo" className="w-40 h-52 sm:w-80 sm:h-[28rem] bg-gray-200 rounded-lg mb-4 sm:mb-6 flex items-center justify-center overflow-hidden" style={{ scrollMarginTop: '80px' }}>
                 <Image
                   src="/profile_image.jpeg"
                   alt="Artist Photo"
@@ -52,6 +32,7 @@ const Biography = () => {
                 />
               </div>
               <h3 className="text-3xl font-bold text-gray-800 text-center">{name}</h3>
+              <BiographyLinks />
             </div>
           </motion.div>
 
