@@ -45,7 +45,7 @@ export default function Header() {
   };
 
   const handleSectionNav = (sectionId) => {
-    if (pathname === "/artworks") {
+    if (pathname !== "/") {
       router.push(`/#${sectionId}`);
       setIsMenuOpen(false);
     } else {
@@ -67,7 +67,6 @@ export default function Header() {
       } ${showHeader ? "translate-y-0" : "-translate-y-full"} transform`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
         <button
           className="font-semibold text-xl text-gray-800 hover:text-gray-900 transition-transform duration-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 rounded-lg px-2 py-1"
           onClick={scrollToTop}
@@ -77,7 +76,6 @@ export default function Header() {
           Jinkyung Hu
         </button>
 
-        {/* Desktop Navigation */}
         <nav
           className="hidden md:flex space-x-6"
           role="navigation"
@@ -105,7 +103,6 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden p-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-300"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -117,7 +114,6 @@ export default function Header() {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             {isMenuOpen ? (
               <path
@@ -159,7 +155,6 @@ export default function Header() {
                 key={id}
                 onClick={() => handleSectionNav(id)}
                 className="text-left text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition duration-300 px-6 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
-                aria-label={`Go to ${label.toLowerCase()} section`}
               >
                 {label}
               </button>

@@ -7,22 +7,28 @@ import ArtFair from "./exhibition_list/ArtFair";
 const Exhibition = () => {
   return (
     <section
-      id="exhibitions"
       className="pt-16 md:pt-24 pb-16 bg-artistic px-4 sm:px-6 text-black relative overflow-hidden"
     >
-      {/* Background decorative elements */}
+      {/* ✅ 스크롤 앵커용 고정 위치 div (이게 핵심) */}
+      <div
+        id="exhibitions"
+        className="absolute top-0 h-[80px] w-full pointer-events-none"
+      />
+
+      {/* 배경 장식 요소 */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-gray-100/30 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-gray-100/30 rounded-full blur-3xl animate-float" />
         <div
           className="absolute bottom-20 right-10 w-40 h-40 bg-gray-200/30 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "1s" }}
-        ></div>
+        />
         <div
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-gray-50/20 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "2s" }}
-        ></div>
+        />
       </div>
 
+      {/* 전시 목록 */}
       <div className="max-w-6xl mx-auto relative z-10">
         <header className="mb-16 text-center">
           <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-6">
@@ -33,6 +39,7 @@ const Exhibition = () => {
             fairs
           </p>
         </header>
+
         <div className="max-w-4xl mx-auto space-y-12">
           <SoloExhibition />
           <GroupExhibition />

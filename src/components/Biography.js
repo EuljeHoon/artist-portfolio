@@ -3,11 +3,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import huJinKyungBio from "../assets/jinkyungBio.json";
 import BiographyLinks from "../components/biography/BiographyLinks";
-import useCDNResource from "../utils/useCDNResource";
 
 const Biography = () => {
   const { name, education, about } = huJinKyungBio;
-  const { getCDNResource } = useCDNResource();
 
   return (
     <section

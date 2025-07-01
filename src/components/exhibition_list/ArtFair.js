@@ -1,59 +1,45 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import huJinKyungBio from "../../assets/jinkyungBio.json";
 import ExhibitionBox from "../common/ExhibitionBox";
 
 const ArtFair = () => {
   const art_fairs = huJinKyungBio.art_fairs || {};
-  const [open, setOpen] = useState(false);
 
   return (
-    <div>
-      <button
-        className="flex items-center text-xl font-semibold mb-6 focus:outline-none select-none"
-        onClick={() => setOpen((prev) => !prev)}
-        aria-expanded={open}
-      >
+    <details className="mb-6 open:mb-10">
+      <summary className="cursor-pointer text-xl font-semibold mb-4 select-none">
         Art Fairs
-        <span
-          className={`ml-2 text-lg transition-transform duration-200 ${
-            open ? "rotate-90" : ""
-          }`}
-        >
-          ▶
-        </span>
-      </button>
-      {open && (
-        <>
-          {Object.entries(art_fairs).map(([fairName, fairData]) => {
-            if (Array.isArray(fairData)) {
-              return (
-                <ExhibitionBox
-                  key={fairName}
-                  title={fairName}
-                  image={null}
-                  items={fairData}
-                />
-              );
+      </summary>
+
+      {Object.entries(art_fairs).map(([fairName, fairData]) => {
+        if (Array.isArray(fairData)) {
+          return (
+            <ExhibitionBox
+              key={fairName}
+              title={fairName}
+              image={null}
+              items={fairData}
+            />
+          );
+        }
+
+        return (
+          <ExhibitionBox
+            key={fairName}
+            title={fairName}
+            image={fairData.Image}
+            items={
+              Array.isArray(fairData)
+                ? fairData
+                : Array.isArray(fairData.Exhibitions)
+                ? fairData.Exhibitions
+                : []
             }
-            return (
-              <ExhibitionBox
-                key={fairName}
-                title={fairName}
-                image={fairData.Image}
-                items={
-                  Array.isArray(fairData)
-                    ? fairData
-                    : Array.isArray(fairData.Exhibitions)
-                    ? fairData.Exhibitions
-                    : []
-                }
-              />
-            );
-          })}
-        </>
-      )}
-    </div>
+          />
+        );
+      })}
+    </details>
   );
 };
 
