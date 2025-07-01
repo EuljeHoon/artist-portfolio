@@ -1,14 +1,13 @@
-
 function useCDNResource() {
-    const host = 'https://d2ev60968camnq.cloudfront.net';
+  const host = "https://d2ev60968camnq.cloudfront.net";
 
-    const getCDNResource = (path) => {
-        return `${host}${path}`;
-    }
+  const getCDNResource = (path) => {
+    return `${host}${path}`;
+  };
 
-    return {
-        getCDNResource,
-    }
+  return {
+    getCDNResource,
+  };
 }
 
 export default useCDNResource;
