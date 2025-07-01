@@ -26,7 +26,6 @@ const ArtFair = () => {
       {open && (
         <>
           {Object.entries(art_fairs).map(([fairName, fairData]) => {
-            // 배열인 경우를 처리
             if (Array.isArray(fairData)) {
               return (
                 <ExhibitionBox

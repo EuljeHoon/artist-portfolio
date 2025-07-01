@@ -3,12 +3,15 @@
 import { useState, useEffect, useRef } from "react";
 import scrollToTop from "../utils/scrollToTop";
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
+  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,6 +42,15 @@ export default function Header() {
       element.scrollIntoView({ behavior: "smooth" });
     }
     setIsMenuOpen(false);
+  };
+
+  const handleSectionNav = (sectionId) => {
+    if (pathname === "/artworks") {
+      router.push(`/#${sectionId}`);
+      setIsMenuOpen(false);
+    } else {
+      scrollToSection(sectionId);
+    }
   };
 
   const handleKeyDown = (e, action) => {
@@ -78,7 +90,7 @@ export default function Header() {
           ].map(({ label, id }) => (
             <button
               key={id}
-              onClick={() => scrollToSection(id)}
+              onClick={() => handleSectionNav(id)}
               className="text-gray-700 hover:text-gray-900 transition duration-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 rounded-full px-4 py-2 hover:bg-gray-200"
               aria-label={`Go to ${label.toLowerCase()} section`}
             >
@@ -145,7 +157,7 @@ export default function Header() {
             ].map(({ label, id }) => (
               <button
                 key={id}
-                onClick={() => scrollToSection(id)}
+                onClick={() => handleSectionNav(id)}
                 className="text-left text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition duration-300 px-6 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
                 aria-label={`Go to ${label.toLowerCase()} section`}
               >

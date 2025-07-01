@@ -26,7 +26,6 @@ const GroupExhibition = () => {
       {open && (
         <>
           {Object.entries(group_exhibitions).map(([groupName, groupData]) => {
-            // 배열인 경우를 처리
             if (Array.isArray(groupData)) {
               return (
                 <ExhibitionBox

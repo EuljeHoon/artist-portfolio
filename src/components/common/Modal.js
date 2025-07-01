@@ -57,6 +57,7 @@ const Modal = ({ open, onClose, title, children }) => {
             </h3>
           )}
           <button
+            type="button"
             className="p-2 text-gray-400 hover:text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
             onClick={onClose}
             aria-label="Close modal"
