@@ -139,8 +139,8 @@ const ArtworkCard = ({ artwork, onClick }) => {
             {artwork.title}
           </h3>
 
-          {/* 연도 표시 */}
-          {extractYear(artwork.title) && (
+          {/* 연도 및 사이즈 표시 */}
+          {(extractYear(artwork.title) || artwork.size) && (
             <div className="flex items-center text-sm text-gray-600">
               <svg
                 className="w-4 h-4 mr-1"
@@ -156,6 +156,12 @@ const ArtworkCard = ({ artwork, onClick }) => {
                 />
               </svg>
               {extractYear(artwork.title)}
+              {artwork.size && (
+                <>
+                  <span className="mx-1">·</span>
+                  <span>{artwork.size}</span>
+                </>
+              )}
             </div>
           )}
         </div>

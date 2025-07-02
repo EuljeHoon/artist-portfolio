@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import Image from "next/image";
 import Modal from "./common/Modal";
 import ArtworkCard from "./ArtworkCard";
 
@@ -11,6 +10,7 @@ const ArtworkGallery = ({ artworks }) => {
   const [activeSeries, setActiveSeries] = useState("Blessing Jar");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedYear, setSelectedYear] = useState("all");
+  const [selectedSize, setSelectedSize] = useState("all");
   const [displayCount, setDisplayCount] = useState(12);
   const observerRef = useRef();
 
@@ -26,6 +26,12 @@ const ArtworkGallery = ({ artworks }) => {
     return yearMatch ? yearMatch[1] : null;
   };
 
+  // size에서 숫자만 추출하는 함수
+  const extractSizeNumber = (size) => {
+    const match = size && size.match(/(\d+)/);
+    return match ? match[1] : null;
+  };
+
   // 사용 가능한 연도들 추출
   const getAvailableYears = () => {
     const years = new Set();
@@ -38,17 +44,30 @@ const ArtworkGallery = ({ artworks }) => {
     return Array.from(years).sort((a, b) => b - a);
   };
 
+  // 사용 가능한 size들 추출 (숫자만)
+  const getAvailableSizes = () => {
+    const sizes = new Set();
+    if (artworks[activeSeries]) {
+      artworks[activeSeries].forEach((artwork) => {
+        const sizeNum = extractSizeNumber(artwork.size);
+        if (sizeNum) sizes.add(sizeNum);
+      });
+    }
+    return Array.from(sizes).sort((a, b) => a - b);
+  };
+
   // 필터링된 작품들
   const getFilteredArtworks = () => {
     if (!artworks[activeSeries]) return [];
-
     return artworks[activeSeries].filter((artwork) => {
       const matchesSearch = artwork.title
         .toLowerCase()
         .includes(searchTerm.toLowerCase());
       const matchesYear =
         selectedYear === "all" || extractYear(artwork.title) === selectedYear;
-      return matchesSearch && matchesYear;
+      const matchesSize =
+        selectedSize === "all" || extractSizeNumber(artwork.size) === selectedSize;
+      return matchesSearch && matchesYear && matchesSize;
     });
   };
 
@@ -76,13 +95,14 @@ const ArtworkGallery = ({ artworks }) => {
   const resetFilters = () => {
     setSearchTerm("");
     setSelectedYear("all");
+    setSelectedSize("all");
     setDisplayCount(12);
   };
 
   // 시리즈 변경 시 디스플레이 카운트 리셋
   useEffect(() => {
     setDisplayCount(12);
-  }, [activeSeries, searchTerm, selectedYear]);
+  }, [activeSeries, searchTerm, selectedYear, selectedSize]);
 
   if (!artworks || Object.keys(artworks).length === 0) {
     return (
@@ -114,6 +134,7 @@ const ArtworkGallery = ({ artworks }) => {
 
   const filteredArtworks = getFilteredArtworks();
   const availableYears = getAvailableYears();
+  const availableSizes = getAvailableSizes();
   const displayedArtworks = filteredArtworks.slice(0, displayCount);
 
   return (
@@ -208,6 +229,29 @@ const ArtworkGallery = ({ artworks }) => {
                 {availableYears.map((year) => (
                   <option key={year} value={year}>
                     {year}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* size 필터 */}
+            <div className="sm:w-40">
+              <label
+                htmlFor="size-filter"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
+                Filter by Size
+              </label>
+              <select
+                id="size-filter"
+                value={selectedSize}
+                onChange={(e) => setSelectedSize(e.target.value)}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-200 text-black"
+              >
+                <option value="all">All Sizes</option>
+                {availableSizes.map((size) => (
+                  <option key={size} value={size}>
+                    {size}
                   </option>
                 ))}
               </select>
@@ -323,6 +367,10 @@ const ArtworkGallery = ({ artworks }) => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
                   {selectedArtwork.title}
                 </h3>
+                {/* 사이즈 정보 (텍스트 아래) */}
+                {selectedArtwork.size && (
+                  <div className="text-sm text-gray-600 mb-2">Size: {selectedArtwork.size}</div>
+                )}
                 <div className="flex items-center space-x-2">
                   <span
                     className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${

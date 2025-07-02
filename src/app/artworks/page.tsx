@@ -6,6 +6,7 @@ import artworksData from "../../assets/artworks.json";
 // 타입 정의
 interface Artwork {
   title: string;
+  size: string;
   sold: boolean;
   url: string;
 }
@@ -13,7 +14,7 @@ interface Artwork {
 interface ArtworksData {
   "Blessing Jar": Artwork[];
   "Put Everything": Artwork[];
-  Blessings: Artwork[];
+  "Blessings": Artwork[];
 }
 
 const ArtworksPage = () => {
