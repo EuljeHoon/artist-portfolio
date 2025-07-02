@@ -9,7 +9,6 @@ const ArtworkCard = ({ artwork, onClick }) => {
   const [imageError, setImageError] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // 연도 추출 함수
   const extractYear = (title) => {
     const yearMatch = title.match(/(\d{4})/);
     return yearMatch ? yearMatch[1] : null;
@@ -28,7 +27,6 @@ const ArtworkCard = ({ artwork, onClick }) => {
     setImageLoaded(true);
   };
 
-  // 플레이스홀더 이미지 URL 생성 함수
   const getPlaceholderImage = (title) => {
     const colors = ["f0f9ff", "fef3c7", "fce7f3", "dcfce7", "fef2f2", "f3e8ff"];
     const color = colors[Math.abs(title.length) % colors.length];
@@ -38,26 +36,20 @@ const ArtworkCard = ({ artwork, onClick }) => {
     )}`;
   };
 
-  // 이미지 URL 결정 함수
   const getImageUrl = (url, title) => {
-    // AWS S3 콘솔 URL인 경우만 플레이스홀더 사용
     if (url.includes("console.aws.amazon.com")) {
       return getPlaceholderImage(title);
     }
-
-    // 나머지는 원본 URL 그대로 사용
     return url;
   };
 
   const imageUrl = getImageUrl(artwork.url, artwork.title);
 
-  // 모달 오픈 핸들러
   const handleViewDetails = (e) => {
-    e.stopPropagation(); // 카드 클릭 이벤트 버블링 방지
+    e.stopPropagation();
     setIsModalOpen(true);
   };
 
-  // 모달 닫기 핸들러
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
@@ -66,7 +58,13 @@ const ArtworkCard = ({ artwork, onClick }) => {
     <>
       <div
         className="group relative bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
-        onClick={onClick}
+        onClick={(e) => {
+          if (window.innerWidth < 768) {
+            handleViewDetails(e);
+          } else {
+            onClick && onClick(e);
+          }
+        }}
       >
         {/* 이미지 컨테이너 */}
         <div className="relative aspect-[4/3] bg-gray-100">
@@ -111,9 +109,9 @@ const ArtworkCard = ({ artwork, onClick }) => {
           )}
           
           {/* 호버 오버레이 */}
-          <div className="absolute inset-0 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-opacity-30">
+          <div className="absolute inset-0 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100 backdrop-blur-sm">
             <button
-              className="bg-white text-gray-900 px-4 py-2 rounded-lg shadow-lg text-sm font-medium focus:outline-none focus:ring-2"
+              className="hidden md:block bg-white text-gray-900 px-4 py-2 rounded-lg shadow-lg text-sm font-medium focus:outline-none focus:ring-2"
               onClick={handleViewDetails}
               tabIndex={0}
             >

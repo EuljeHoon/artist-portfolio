@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 const BiographyLinks = () => (
   <div className="flex justify-center gap-8 mt-2 text-black">
     <a
-      href="https://www.instagram.com/your-instagram-id"
+      href="https://www.instagram.com/jinkyunghu/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-gray-500 transition"
