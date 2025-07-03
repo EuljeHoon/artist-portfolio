@@ -34,14 +34,16 @@ const ExhibitionBox = ({ title, items, image }) => {
               </p>
             </div>
           </div>
-          <button
-            type="button"
-            className="btn-artistic-secondary ml-0 md:ml-6 w-auto px-6 py-2 text-base md:text-lg rounded-full mx-auto"
-            onClick={handleOpen}
-            aria-label={`View ${title} exhibitions`}
-          >
-            View
-          </button>
+          <div className="flex justify-center md:justify-end w-full md:w-auto">
+            <button
+              type="button"
+              className="btn-artistic-secondary px-6 py-2 text-base md:text-lg rounded-full"
+              onClick={handleOpen}
+              aria-label={`View ${title} exhibitions`}
+            >
+              View
+            </button>
+          </div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-gray-50/0 to-gray-100/0 group-hover:from-gray-50/30 group-hover:to-gray-100/30 transition-all duration-500 pointer-events-none"></div>
       </div>
