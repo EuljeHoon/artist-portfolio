@@ -1,25 +1,25 @@
-# Jinkyung Portfolio - Next.js Art Gallery Project
+# Artist Portfolio
 
-A modern art gallery portfolio built with Next.js 15, featuring dynamic artwork filtering, AWS S3 integration, and Cloudflare Pages deployment.
+A portfolio built with Next.js 15, featuring dynamic artwork filtering, AWS S3 integration, and Cloudflare Pages deployment.
 
 ## 🏗️ Project Overview
 
-This project is a full-stack art gallery application that showcases Hu Jin Kyung's artwork collection. Built with modern web technologies, it features advanced filtering capabilities, responsive design, and image delivery through AWS S3.
+The artwork collection is displayed in this project, which is a full-stack art gallery application. It was constructed using contemporary web technologies and has responsive design, sophisticated filtering, and picture distribution via AWS S3.
 
 ## 🛠️ Technology Stack
 
 ### Frontend
 - **Framework**: Next.js 15.3.4 (App Router)
-- **Language**: TypeScript 5
-- **Styling**: Tailwind CSS 4.1.11
+- **Language**: Javascript
+- **Styling**: Tailwind CSS
 - **State Management**: React Hooks (useState, useEffect, useCallback)
 - **Animations**: Framer Motion 12.19.2
 - **Icons**: React Icons 5.5.0
 
 ### Backend & Infrastructure
-- **Image Storage**: AWS S3 (gallery-soma-assets.s3.ap-northeast-2.amazonaws.com)
+- **Image Storage**: AWS S3
 - **Deployment**: Cloudflare Pages
-- **Domain**: jinkyung-portfolio.pages.dev
+- **Domain**: https://www.jinkyungartist.me/
 
 ### Development Tools
 - **Package Manager**: npm
@@ -33,13 +33,13 @@ Jinkyung-portfolio/
 ├── src/
 │   ├── app/                          # Next.js App Router
 │   │   ├── artworks/
-│   │   │   └── page.tsx              # Artwork gallery page with filtering
+│   │   │   └── page.tsx              # Artwork gallery page with filter function
 │   │   ├── globals.css               # Global Tailwind styles
 │   │   ├── layout.tsx                # Root layout with metadata
 │   │   └── page.tsx                  # Homepage with artist intro
 │   ├── assets/                       # Static JSON data
 │   │   ├── artworks.json             # 800+ artwork entries with S3 URLs
-│   │   ├── hu_jin_kyung_full_experience.json  # Exhibition data
+│   │   ├── hu_jin_kyung_full_experience.json  # Exhibition experience data
 │   │   └── jinkyungBio.json          # Artist biography
 │   ├── components/                   # React components
 │   │   ├── ArtworkCard.js            # Individual artwork display
@@ -56,7 +56,7 @@ Jinkyung-portfolio/
 │   │       ├── GroupExhibition.js    # Group exhibition display
 │   │       └── SoloExhibition.js     # Solo exhibition display
 │   └── utils/                        # Utility functions
-│       ├── scrollToTop.js            # Smooth scroll utility
+│       ├── scrollToTop.js            # Smooth scroll to top utility
 │       └── useCDNResource.js         # AWS S3 resource handling
 ├── public/                           # Static assets
 │   ├── JinkyungHu.ico               # Custom favicon
@@ -84,13 +84,13 @@ Jinkyung-portfolio/
 
 **Technical Implementation**:
 ```javascript
-// Year extraction function
+// Year extraction function from artwork title in .json
 const extractYear = (title) => {
   const yearMatch = title.match(/(\d{4})/);
   return yearMatch ? yearMatch[1] : null;
 };
 
-// Size filtering with number extraction
+// Size filtering with number extraction from size in .json
 const extractSizeNumber = (size) => {
   const match = size && size.match(/(\d+)/);
   return match ? match[1] : null;
@@ -105,7 +105,7 @@ const extractSizeNumber = (size) => {
 - **Next.js Image**: Image component with lazy loading
 - **Error Handling**: Fallback for failed image loads
 - **Hover Effects**: CSS transitions and transforms
-- **Responsive Design**: Aspect ratio maintenance
+- **Responsive Design**: Ratio maintenance
 
 **Technical Implementation**:
 ```javascript
@@ -282,27 +282,6 @@ const nextConfig = {
 **Problem**: Complex filter state
 **Solution**: Multiple useState hooks with reset functionality
 **Code**: `resetFilters()` function in ArtworkGallery.js
-
-## 🔮 Future Enhancements
-
-### Planned Features
-- **Admin Panel**: Content management system
-- **Analytics**: User behavior tracking
-- **SEO Optimization**: Meta tags and structured data
-- **PWA**: Progressive Web App features
-
-### Technical Improvements
-- **API Routes**: Dynamic data fetching
-- **Database**: MongoDB/PostgreSQL integration
-- **Authentication**: Admin login system
-- **Image Processing**: Automated image optimization
-
-## 📞 Support & Maintenance
-
-**Repository**: Private GitHub repository
-**Deployment**: Automatic via Cloudflare Pages
-**Monitoring**: Cloudflare Analytics
-**Backup**: AWS S3 versioning enabled
 
 ---
 
